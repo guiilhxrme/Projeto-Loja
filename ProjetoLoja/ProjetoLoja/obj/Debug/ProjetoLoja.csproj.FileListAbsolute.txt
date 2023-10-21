@@ -1,0 +1,16 @@
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\bin\Debug\ProjetoLoja.exe.config
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\bin\Debug\ProjetoLoja.exe
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\bin\Debug\ProjetoLoja.pdb
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.csproj.AssemblyReference.cache
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmLogin.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.Properties.Resources.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.Splash.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.csproj.GenerateResource.cache
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.exe
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.pdb
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmMenu.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmCadCli.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmCadProd.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmConsCli.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmConsPro.resources
