@@ -1,6 +1,6 @@
 ﻿namespace ProjetoLoja
 {
-    partial class frmConsPro
+    partial class frmConsProd
     {
         /// <summary>
         /// Required designer variable.
@@ -65,6 +65,7 @@
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnConsProduto
             // 
@@ -78,7 +79,7 @@
             this.btnConsProduto.Text = "Consultar Produto";
             this.btnConsProduto.UseVisualStyleBackColor = false;
             // 
-            // frmConsPro
+            // frmConsProd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,7 +91,7 @@
             this.Controls.Add(this.btnConsProduto);
             this.Font = new System.Drawing.Font("Hack Nerd Font Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(242)))), ((int)(((byte)(244)))));
-            this.Name = "frmConsPro";
+            this.Name = "frmConsProd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulta de Produto";
             this.ResumeLayout(false);

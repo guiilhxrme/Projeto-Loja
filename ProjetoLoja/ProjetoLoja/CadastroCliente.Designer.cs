@@ -35,12 +35,12 @@
             this.txtEnd = new System.Windows.Forms.TextBox();
             this.txtObs = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEnd = new System.Windows.Forms.Label();
             this.lblObs = new System.Windows.Forms.Label();
+            this.mskTel = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // btnVoltar
@@ -111,15 +111,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(290, 34);
             this.txtNome.TabIndex = 6;
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(366, 174);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(290, 34);
-            this.txtTelefone.TabIndex = 7;
-            this.txtTelefone.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // lblNome
             // 
@@ -171,18 +163,28 @@
             this.lblObs.TabIndex = 12;
             this.lblObs.Text = "Observação";
             // 
+            // mskTel
+            // 
+            this.mskTel.Culture = new System.Globalization.CultureInfo("pt-BR");
+            this.mskTel.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskTel.Location = new System.Drawing.Point(366, 174);
+            this.mskTel.Mask = "+55 (11) 00000-0000";
+            this.mskTel.Name = "mskTel";
+            this.mskTel.Size = new System.Drawing.Size(290, 34);
+            this.mskTel.TabIndex = 13;
+            // 
             // frmCadCli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(153)))), ((int)(((byte)(174)))));
             this.ClientSize = new System.Drawing.Size(800, 422);
+            this.Controls.Add(this.mskTel);
             this.Controls.Add(this.lblObs);
             this.Controls.Add(this.lblEnd);
             this.Controls.Add(this.lblTelefone);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblNome);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.txtObs);
             this.Controls.Add(this.txtEnd);
@@ -210,11 +212,11 @@
         private System.Windows.Forms.TextBox txtEnd;
         private System.Windows.Forms.TextBox txtObs;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Label lblEnd;
         private System.Windows.Forms.Label lblObs;
+        private System.Windows.Forms.MaskedTextBox mskTel;
     }
 }

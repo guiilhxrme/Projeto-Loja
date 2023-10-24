@@ -13,4 +13,4 @@ C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\
 C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmCadCli.resources
 C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmCadProd.resources
 C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmConsCli.resources
-C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmConsPro.resources
+C:\Users\Guilherme\Documents\ETEC\PROJETOCITY\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.frmConsProd.resources

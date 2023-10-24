@@ -50,7 +50,7 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Hack Nerd Font Mono", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(216, 206);
+            this.lblPassword.Location = new System.Drawing.Point(216, 174);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(117, 33);
             this.lblPassword.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.btnLogar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
             this.btnLogar.Font = new System.Drawing.Font("Hack Nerd Font Mono", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
-            this.btnLogar.Location = new System.Drawing.Point(222, 289);
+            this.btnLogar.Location = new System.Drawing.Point(222, 228);
             this.btnLogar.Name = "btnLogar";
             this.btnLogar.Size = new System.Drawing.Size(349, 60);
             this.btnLogar.TabIndex = 3;
@@ -81,17 +81,19 @@
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(373, 139);
+            this.txtUser.Font = new System.Drawing.Font("Hack Nerd Font Mono", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.Location = new System.Drawing.Point(373, 126);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(198, 23);
+            this.txtUser.Size = new System.Drawing.Size(198, 39);
             this.txtUser.TabIndex = 4;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(373, 216);
+            this.txtPassword.Font = new System.Drawing.Font("Hack Nerd Font Mono", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(373, 171);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(198, 23);
+            this.txtPassword.Size = new System.Drawing.Size(198, 39);
             this.txtPassword.TabIndex = 5;
             // 
             // frmLogin

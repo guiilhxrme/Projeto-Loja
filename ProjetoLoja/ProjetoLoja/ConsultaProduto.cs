@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ProjetoLoja
 {
-    public partial class frmConsPro : Form
+    public partial class frmConsProd : Form
     {
-        public frmConsPro()
+        public frmConsProd()
         {
             InitializeComponent();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            //instanciando a tela de menu
+            frmMenu menu = new frmMenu();
+            //mostrando a tela de menu
+            menu.Show();
+            //ocultando a tela de login
+            this.Hide();
         }
     }
 }

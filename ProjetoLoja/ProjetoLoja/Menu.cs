@@ -66,10 +66,10 @@ namespace ProjetoLoja
         private void btnConsProd_Click(object sender, EventArgs e)
         {
             //instancia da tela de consulta de produtos
-            frmConsCli ConsultaCliente = new frmConsCli();
+            frmConsProd ConsultaProduto = new frmConsProd();
 
             //mostrando a tela de consulta de produtos
-            ConsultaCliente.Show();
+            ConsultaProduto.Show();
 
             //ocultando tela de menu
             this.Hide();
@@ -114,10 +114,10 @@ namespace ProjetoLoja
         private void pEDIDOSToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             //instancia da tela de consulta de produtos
-            frmConsCli ConsultaCliente = new frmConsCli();
+            frmConsProd ConsultaProduto = new frmConsProd();
 
             //mostrando a tela de consulta de produtos
-            ConsultaCliente.Show();
+            ConsultaProduto.Show();
 
             //ocultando tela de menu
             this.Hide();

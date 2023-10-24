@@ -26,5 +26,15 @@ namespace ProjetoLoja
         {
 
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            //instanciando a tela de menu
+            frmMenu menu = new frmMenu();
+            //mostrando a tela de menu
+            menu.Show();
+            //ocultando a tela de login
+            this.Hide();
+        }
     }
 }

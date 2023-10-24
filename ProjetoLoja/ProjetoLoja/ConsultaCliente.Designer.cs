@@ -39,7 +39,7 @@
             this.btnConsCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
             this.btnConsCliente.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
-            this.btnConsCliente.Location = new System.Drawing.Point(202, 285);
+            this.btnConsCliente.Location = new System.Drawing.Point(198, 285);
             this.btnConsCliente.Name = "btnConsCliente";
             this.btnConsCliente.Size = new System.Drawing.Size(172, 96);
             this.btnConsCliente.TabIndex = 0;
@@ -57,6 +57,7 @@
             this.btnVoltar.TabIndex = 1;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label1
             // 

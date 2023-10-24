@@ -33,11 +33,11 @@
             this.lblQuant = new System.Windows.Forms.Label();
             this.lblDesc = new System.Windows.Forms.Label();
             this.lblNomeProd = new System.Windows.Forms.Label();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtQtd = new System.Windows.Forms.TextBox();
+            this.txtNomeProd = new System.Windows.Forms.TextBox();
             this.txtObsProd = new System.Windows.Forms.TextBox();
-            this.txtEnd = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtVal = new System.Windows.Forms.TextBox();
+            this.txtDesc = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCadProd = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
@@ -103,23 +103,23 @@
             this.lblNomeProd.Text = "Nome do Produto";
             this.lblNomeProd.Click += new System.EventHandler(this.lblNome_Click);
             // 
-            // txtTelefone
+            // txtQtd
             // 
-            this.txtTelefone.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(369, 168);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(290, 34);
-            this.txtTelefone.TabIndex = 20;
-            this.txtTelefone.TextChanged += new System.EventHandler(this.txtTelefone_TextChanged);
+            this.txtQtd.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQtd.Location = new System.Drawing.Point(369, 168);
+            this.txtQtd.Name = "txtQtd";
+            this.txtQtd.Size = new System.Drawing.Size(290, 34);
+            this.txtQtd.TabIndex = 20;
+            this.txtQtd.TextChanged += new System.EventHandler(this.txtTelefone_TextChanged);
             // 
-            // txtNome
+            // txtNomeProd
             // 
-            this.txtNome.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(369, 88);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(290, 34);
-            this.txtNome.TabIndex = 19;
-            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
+            this.txtNomeProd.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeProd.Location = new System.Drawing.Point(369, 88);
+            this.txtNomeProd.Name = "txtNomeProd";
+            this.txtNomeProd.Size = new System.Drawing.Size(290, 34);
+            this.txtNomeProd.TabIndex = 19;
+            this.txtNomeProd.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // txtObsProd
             // 
@@ -131,23 +131,23 @@
             this.txtObsProd.TabIndex = 18;
             this.txtObsProd.TextChanged += new System.EventHandler(this.txtObs_TextChanged);
             // 
-            // txtEnd
+            // txtVal
             // 
-            this.txtEnd.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEnd.Location = new System.Drawing.Point(369, 208);
-            this.txtEnd.Name = "txtEnd";
-            this.txtEnd.Size = new System.Drawing.Size(290, 34);
-            this.txtEnd.TabIndex = 17;
-            this.txtEnd.TextChanged += new System.EventHandler(this.txtEnd_TextChanged);
+            this.txtVal.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVal.Location = new System.Drawing.Point(369, 208);
+            this.txtVal.Name = "txtVal";
+            this.txtVal.Size = new System.Drawing.Size(290, 34);
+            this.txtVal.TabIndex = 17;
+            this.txtVal.TextChanged += new System.EventHandler(this.txtEnd_TextChanged);
             // 
-            // txtEmail
+            // txtDesc
             // 
-            this.txtEmail.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(369, 128);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(290, 34);
-            this.txtEmail.TabIndex = 16;
-            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
+            this.txtDesc.Font = new System.Drawing.Font("Hack Nerd Font Mono", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDesc.Location = new System.Drawing.Point(369, 128);
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.Size = new System.Drawing.Size(290, 34);
+            this.txtDesc.TabIndex = 16;
+            this.txtDesc.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // label1
             // 
@@ -198,11 +198,11 @@
             this.Controls.Add(this.lblQuant);
             this.Controls.Add(this.lblDesc);
             this.Controls.Add(this.lblNomeProd);
-            this.Controls.Add(this.txtTelefone);
-            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtQtd);
+            this.Controls.Add(this.txtNomeProd);
             this.Controls.Add(this.txtObsProd);
-            this.Controls.Add(this.txtEnd);
-            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtVal);
+            this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCadProd);
             this.Controls.Add(this.btnVoltar);
@@ -223,11 +223,11 @@
         private System.Windows.Forms.Label lblQuant;
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Label lblNomeProd;
-        private System.Windows.Forms.TextBox txtTelefone;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtQtd;
+        private System.Windows.Forms.TextBox txtNomeProd;
         private System.Windows.Forms.TextBox txtObsProd;
-        private System.Windows.Forms.TextBox txtEnd;
-        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtVal;
+        private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCadProd;
         private System.Windows.Forms.Button btnVoltar;
