@@ -78,6 +78,7 @@
             this.btnConsProduto.TabIndex = 4;
             this.btnConsProduto.Text = "Consultar Produto";
             this.btnConsProduto.UseVisualStyleBackColor = false;
+            this.btnConsProduto.Click += new System.EventHandler(this.btnConsProduto_Click);
             // 
             // frmConsProd
             // 

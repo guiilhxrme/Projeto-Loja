@@ -51,8 +51,8 @@ namespace ProjetoLoja
                 sw.WriteLine("Email: " + txtEmail.Text);
                 sw.WriteLine("Telefone: " + mskTel.Text);
                 sw.WriteLine("Endereço: " + txtEnd.Text);
-                sw.WriteLine("Obs: " + txtObs.Text);
-                sw.WriteLine("================");
+                sw.WriteLine("OBS: " + txtObs.Text);
+                sw.WriteLine("================================================\n");
 
                 //caixa de mensagem de cadastro concluído
                 MessageBox.Show("Cadastro concluído!");

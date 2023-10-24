@@ -101,8 +101,8 @@ namespace ProjetoLoja
                 sw.WriteLine("Descrição: " + txtDesc.Text);
                 sw.WriteLine("Quantidade: " + txtQtd.Text);
                 sw.WriteLine("Valor: " + txtVal.Text);
-                sw.WriteLine("Obs: " + txtObsProd.Text);
-                sw.WriteLine("/================/");
+                sw.WriteLine("OBS: " + txtObsProd.Text);
+                sw.WriteLine("================================================");
 
                 //caixa de mensagem de cadastro concluído
                 MessageBox.Show("Cadastro de produto concluído!");

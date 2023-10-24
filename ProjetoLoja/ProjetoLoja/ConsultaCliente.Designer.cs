@@ -45,6 +45,7 @@
             this.btnConsCliente.TabIndex = 0;
             this.btnConsCliente.Text = "Consultar Cliente";
             this.btnConsCliente.UseVisualStyleBackColor = false;
+            this.btnConsCliente.Click += new System.EventHandler(this.btnConsCliente_Click);
             // 
             // btnVoltar
             // 
